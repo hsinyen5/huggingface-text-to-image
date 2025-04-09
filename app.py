@@ -48,7 +48,7 @@ def infer(
         generator=generator,
     ).images[0]
 
-    return image, seed
+    return {"image": image, "seed": seed}
 
 
 examples = [
